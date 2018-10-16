@@ -1,4 +1,4 @@
-Glendale=read.table("C:/Users/yimen/OneDrive/Documents/GlendaleHousing.txt",header=TRUE);
+Glendale=read.table(".../GlendaleHousing.txt",header=TRUE);
 Glendale=Glendale[,-c(1,12)];
 dim(Glendale) # [1] 173  12
 
